@@ -1,5 +1,21 @@
-# Getting and Cleaning Data Course Project
- Data Science Class Assienment
+---
+title: "Peer-graded Assignment: Getting and Cleaning Data Course Project"
+author: "Samer Mahmoud"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
 ## The data for the project was downloaded from:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -11,3 +27,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3) Uses descriptive activity names to name the activities in the data set
 4) Labels the data set with descriptive variable names, and
 5) creates an independent tidy data set with the average of each variable for each activity and each subject.
+
+
